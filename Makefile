@@ -26,7 +26,7 @@ test-lists:
 	uv run pytest -v tests/test_lists.py::TestListsFunctions
 
 test-sets:
-	uv run pytest -v tests/test_sets.py::TestSetsFunctions
+	uv run pytest -v tests/test_sets.py::TestSetsOperations
 
 test-dicts:
 	uv run pytest -v tests/test_dicts.py::TestDictsFunctions
